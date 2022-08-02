@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Para la Niña Tamys</title>
+	<link rel="icon" href="imagenes/icono.png">
+	<style type="text/css">
+		.particula {
+			width: 8px;
+			height: 8px;
+			background: black;
+			border-radius: 50%;
+			position: absolute;
+		}
+
+		.particula[data-padre="false"] {
+			width: 5px;
+			height: 5px;
+		}
+
+		body,
+		html {
+			overflow-y: hidden;
+			overflow-x: hidden;
+			background: black;
+		}
+
+		#fondo {
+			position: absolute;
+			bottom: -100px;
+			opacity: .4;
+			width: 1000px;
+			height: 700px;
+		}
+	</style>
+</head>
+
+<body>
+	<!--div class="particula" data-velocidad-y="0" data-velocidad-x="0" data-padre="true" /-->
+	<div class="parrafo">
+		<p>
+			<img src="imagenes/2.png">
+			Quiero agradecerte por cada momento que me haces reír,
+			quiero agradecerte también por todo tu apoyo y, sobre todo,
+			por motivarme a siempre seguir saliendo adelante.
+			"No creo que el amor sea ciego porque ha sido mirarte
+			y volverme loco por ti" 
+			<br><br>
+			Att: El ing. que te sigue amando.
+		</p>
+
+	</div>
+
+
+	<img src="imagenes/gira.png" id="fondo" />
+	<script src="index.js"></script>
+	<link rel="stylesheet" href="estiloj.css">
+</body>
+
+</html>
